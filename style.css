@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+main{
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    
+}
+.bulb{
+    height: 55%;
+    width: 30%;
+    border-radius: 50%;
+    border: 2px solid #252424;
+    transition: all 0.5s ease-in-out;
+    
+}
+button{
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+button:hover{
+    background-color: #2bcc28;
+    color: rgb(243, 243, 243);
+    transform: scale(1.1);
+}
+@media screen and (max-width: 768px){
+    .bulb{
+        height: 40%;
+        width: 50%;
+    }
+}
