@@ -2,6 +2,8 @@
 
 A simple light bulb that turns on and off with a button click, with a click sound effect. Built while learning DOM manipulation in JavaScript.
 
+# Live Link
+ https://rahulgavel73.github.io/simple_bulb_toggle
 ## Features
 
 - Click the button to switch the bulb **On** and **Off**
